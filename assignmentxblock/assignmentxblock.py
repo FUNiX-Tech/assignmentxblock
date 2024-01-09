@@ -323,6 +323,8 @@ class AssignmentXBlock(XBlock):
 
         LMS_BASE = get_config('LMS_BASE')
         PORTAL_HOST = get_site_config(LMS_BASE, 'PORTAL_HOST', 'localhost:8069')
+        PLAGIARISM_POLICY_URL = get_site_config(LMS_BASE, 'PLAGIARISM_POLICY_URL', '#')
+        FUNIX_HONOR_CODE_URL = get_site_config(LMS_BASE, 'FUNIX_HONOR_CODE_URL', '#')
 
         # api
         PORTAL_GET_SUBMISSION_URL = f"{PORTAL_HOST}/api/v1/project/user"
@@ -338,6 +340,8 @@ class AssignmentXBlock(XBlock):
             "PORTAL_GET_SUBMISSION_URL": PORTAL_GET_SUBMISSION_URL,
             "PORTAL_SUBMIT_URL": PORTAL_SUBMIT_URL,
             "PORTAL_CANCEL_SUBMISSION_URL": PORTAL_CANCEL_SUBMISSION_URL,
+            "PLAGIARISM_POLICY_URL": PLAGIARISM_POLICY_URL,
+            "FUNIX_HONOR_CODE_URL": FUNIX_HONOR_CODE_URL,
             "block": self,
             "max_file_size": self.max_file_size, 
             "allowed_file_types": self.allowed_file_types,
@@ -349,7 +353,8 @@ class AssignmentXBlock(XBlock):
             "uploaded_successfully": self.uploaded_successfully,
             "submission_note": self.submission_note,
             "usage_id": self.scope_ids.usage_id,
-            "unit_usage_id": self.get_parent().scope_ids.usage_id
+            "unit_usage_id": self.get_parent().scope_ids.usage_id,
+
         }
 
         return context

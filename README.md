@@ -1,7 +1,8 @@
 # Assignment XBlock
 
-Thay đổi ở version 0.3.0: 
+Thay đổi ở version 0.3.4dev: 
 - Chấm và hiển thị kết quả theo từng đặc tả. Không nhận xét chung nữa. 
+
 
 ## Requirements
 
@@ -13,7 +14,7 @@ boto3==1.28.31
 boto==2.49.0
 ```
 
-Need to set `PORTAL_HOST` to Site Configuration. Read this: https://github.com/FUNiX-Tech/edx-platform/wiki/Site-Configurations.  
+Need to set `PORTAL_HOST`, `PLAGIARISM_POLICY_URL`, `FUNIX_HONOR_CODE_URL` to Site Configuration. Read this: https://github.com/FUNiX-Tech/edx-platform/wiki/Site-Configurations.  
 
 ## Config (If you do not intend to use S3, you can skip this)
 
