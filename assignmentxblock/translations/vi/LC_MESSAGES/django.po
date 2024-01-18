@@ -54,12 +54,12 @@ msgid "Suggest <strong>5 optimizations</strong> to help the campaign perform bet
 msgstr "Đề xuất <strong>5 cách tối ưu hóa</strong> để giúp chiến dịch hoạt động tốt hơn và đạt được mục tiêu. Thêm đề xuất tối ưu hóa của bạn và lý do giải thích cho chúng trong tab thích hợp."
 
 #: templates/components/submission_history.html
-msgid "Select another submitted project"
-msgstr "Chọn một dự án đã nộp khác"
+msgid "Select a project"
+msgstr "Chọn một dự án"
 
 #: templates/components/submission_history.html
 msgid "Project submission history"
-msgstr "Lịch sử nộp dự án"
+msgstr "Dự án đã nộp"
 
 #: templates/components/submission_response.html
 msgid "point that need to be changed"

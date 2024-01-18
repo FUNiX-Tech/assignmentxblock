@@ -23,12 +23,9 @@ def package_data(pkg, roots):
 
 setup(
     name='assignmentxblock-xblock',
-    version='0.3.4.dev0',
-    description='assignmentxblock XBlock',   # TODO: write a better description.
+    version='0.3.5.dev0',
+    description='Assignment XBlock',   # TODO: write a better description.
     license='UNKNOWN',          # TODO: choose a license: 'AGPL v3' and 'Apache 2.0' are popular.
-    # packages=[
-    #     'assignmentxblock',
-    # ],
     packages=find_packages(include=['assignmentxblock*']),
     install_requires=[
         'XBlock',

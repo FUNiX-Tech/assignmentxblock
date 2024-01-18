@@ -5,23 +5,23 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-# static/js/assignmentxblock.js
+# static/js/unit_1.js
 msgid "File is too large. Only allowed maximum"
 msgstr "Tập tin quá lớn. Chỉ cho phép tối đa"
 
-# static/js/assignmentxblock.js
+# static/js/unit_1.js
 msgid "Only the following file types are allowed:"
 msgstr "Chỉ cho phép các loại tệp sau:"
 
-# static/js/assignmentxblock.js
+# static/js/unit_2.js
 msgid "Select project"
 msgstr "Chọn dự án"
 
-# static/js/assignmentxblock.js
+# static/js/unit_2.js
 msgid "No project found"
 msgstr "Không tìm thấy dự án nào"
 
-# static/js/assignmentxblock.js
+# static/js/unit_2.js
 msgid "Submission date: "
 msgstr "Ngày nộp: "
 

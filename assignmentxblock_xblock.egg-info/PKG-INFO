@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: assignmentxblock-xblock
-Version: 0.3.3.dev0
-Summary: assignmentxblock XBlock
+Version: 0.3.5.dev0
+Summary: Assignment XBlock
 License: UNKNOWN
 Requires-Dist: XBlock

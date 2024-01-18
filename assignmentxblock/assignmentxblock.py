@@ -22,7 +22,6 @@ def get_template_path(status):
     return f"templates/{status}.html"
 
 CSS_PATH = 'static/css/assignmentxblock.css'
-JS_PATH = 'static/js/assignmentxblock.js'
 
 @XBlock.needs("i18n")
 @XBlock.needs("user")
@@ -354,7 +353,7 @@ class AssignmentXBlock(XBlock):
             "submission_note": self.submission_note,
             "usage_id": self.scope_ids.usage_id,
             "unit_usage_id": self.get_parent().scope_ids.usage_id,
-
+            "DEBUG": get_config('DEBUG', False)
         }
 
         return context

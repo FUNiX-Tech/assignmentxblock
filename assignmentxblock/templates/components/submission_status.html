@@ -48,6 +48,14 @@
           {% trans "You have not submitted your assignment yet" %}
         {% endif %}
         </strong>
+        
+        {% if submission %}
+          {% if submission.result == 'unable_to_review' %}
+            <div style="flex: 1" class="download-btn">
+              <a class='' href="{{submission.url}}">{% trans "Download Submission" %}</a>
+            </div>
+          {% endif %}
+        {% endif %}
       </div>
 
       {% if not is_result_unit %}
@@ -58,15 +66,5 @@
 
     </div>
   </div>
-  
-  {% if is_result_unit %}
-    {% if submission %}
-      {% if submission.result != 'unable_to_review' %}
-        <div style='display: flex;'>
-          <a class='lpx-btn lpx-btn-secondary' href="{{submission.url}}">{% trans "Download Submission" %}</a>
-        </div>
-      {% endif %}
-    {% endif %}
-  {% endif %}
   
 </div>
