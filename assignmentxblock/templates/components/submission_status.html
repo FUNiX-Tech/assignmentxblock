@@ -50,7 +50,7 @@
         </strong>
         
         {% if submission %}
-          {% if submission.result == 'unable_to_review' %}
+          {% if submission.result != 'unable_to_review' %}
             <div style="flex: 1" class="download-btn">
               <a class='' href="{{submission.url}}">{% trans "Download Submission" %}</a>
             </div>
