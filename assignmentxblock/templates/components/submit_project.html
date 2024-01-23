@@ -82,9 +82,7 @@
                     <input type='checkbox' />
 
                     <p>
-                        {% blocktrans%}
-                        I have read Funix's definition of <a href='{{PLAGIARISM_POLICY_URL}}'>plagiarism</a>, and I declare that this is my own work.
-                        {% endblocktrans %}
+                        {% blocktrans with plagiarism_policy_url=PLAGIARISM_POLICY_URL %}I have read Funix's definition of <a href='{{plagiarism_policy_url}}'>plagiarism</a>, and I declare that this is my own work.{% endblocktrans %}
                     </p>
                 </label>
             </li>
@@ -120,10 +118,8 @@
                     <input type='checkbox' />
 
                     <p>
-                        {% blocktrans%}
-                            I understand that Funix regularly checks submissions for copyright infringement and violations of the Funix Student Code of Conduct, and failure to comply with the <a href='{{FUNIX_HONOR_CODE_URL}}'>Funix Honor Code</a> may result in to cancel my subscription.
-                        {% endblocktrans %}
-                    </p>
+                        {% blocktrans with funix_honor_code_url=FUNIX_HONOR_CODE_URL %}I understand that Funix regularly checks submissions for copyright infringement and violations of the Funix Student Code of Conduct, and failure to comply with the <a href='{{funix_honor_code_url}}'>Funix Honor Code</a> may result in to cancel my subscription.{% endblocktrans %}
+                    </p>                                                               
                 </label>
             </li>
         </ul>

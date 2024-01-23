@@ -9,7 +9,6 @@ assignmentxblock/uploaders.py
 assignmentxblock/static/README.txt
 assignmentxblock/static/css/assignmentxblock.css
 assignmentxblock/static/css/studio_view.css
-assignmentxblock/static/js/assignmentxblock.js
 assignmentxblock/static/js/studio_view.js
 assignmentxblock/static/js/unit_1.js
 assignmentxblock/static/js/unit_2.js
@@ -35,7 +34,6 @@ assignmentxblock/translations/vi/LC_MESSAGES/django.mo
 assignmentxblock/translations/vi/LC_MESSAGES/django.po
 assignmentxblock/translations/vi/LC_MESSAGES/djangojs.mo
 assignmentxblock/translations/vi/LC_MESSAGES/djangojs.po
-assignmentxblock/translations/vi/LC_MESSAGES/x.txt
 assignmentxblock_xblock.egg-info/PKG-INFO
 assignmentxblock_xblock.egg-info/SOURCES.txt
 assignmentxblock_xblock.egg-info/dependency_links.txt

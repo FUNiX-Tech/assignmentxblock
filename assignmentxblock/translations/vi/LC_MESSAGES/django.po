@@ -146,16 +146,16 @@ msgid "You need to agree to the following before submitting your assignment"
 msgstr "Bạn cần đồng ý các điều sau trước khi nộp bài"
 
 #: templates/components/submit_project.html 
-msgid "I have read Funix's definition of <a href='%(PLAGIARISM_POLICY_URL)s'>plagiarism</a>, and I declare that this is my own work."
-msgstr "Tôi đã đọc định nghĩa của Funix về <a href='%(PLAGIARISM_POLICY_URL)s'>đạo văn</a>, và tôi khẳng định đây là bài làm của chính tôi."
+msgid "I have read Funix's definition of <a href='%(plagiarism_policy_url)s'>plagiarism</a>, and I declare that this is my own work."
+msgstr "Tôi đã đọc định nghĩa của Funix về <a href='%(plagiarism_policy_url)s'>đạo văn</a>, và tôi khẳng định đây là bài làm của chính tôi."
 
 #: templates/components/submit_project.html
 msgid "I have clearly attributed the source of all content taken from different sources, such as websites, books, forums, blogs, GitHub repositories, etc."
 msgstr "Tôi đã ghi rõ nguồn của tất cả nội dung được lấy từ các nguồn khác nhau, như các trang web, sách, diễn đàn, blog, kho lưu trữ GitHub, v.v."
 
 #: templates/components/submit_project.html
-msgid "I understand that Funix regularly checks submissions for copyright infringement and violations of the Funix Student Code of Conduct, and failure to comply with the <a href='%(FUNIX_HONOR_CODE_URL)s'>Funix Honor Code</a> may result in to cancel my subscription."
-msgstr "Tôi hiểu rằng Funix thường xuyên kiểm tra bài nộp để phát hiện vi phạm bản quyền và vi phạm Đạo đức học sinh của Funix, và việc không tuân thủ <a href='%(FUNIX_HONOR_CODE_URL)s'>Funix Honor Code</a> có thể dẫn đến hủy bỏ việc đăng ký của tôi."
+msgid "I understand that Funix regularly checks submissions for copyright infringement and violations of the Funix Student Code of Conduct, and failure to comply with the <a href='%(funix_honor_code_url)s'>Funix Honor Code</a> may result in to cancel my subscription."
+msgstr "Tôi hiểu rằng Funix thường xuyên kiểm tra bài nộp để phát hiện vi phạm bản quyền và vi phạm Đạo đức học sinh của Funix, và việc không tuân thủ <a href='%(funix_honor_code_url)s'>Funix Honor Code</a> có thể dẫn đến hủy bỏ việc đăng ký của tôi."
 
 #: templates/components/submit_project.html
 msgid "Submit Project"
